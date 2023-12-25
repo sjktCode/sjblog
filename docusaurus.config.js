@@ -117,10 +117,10 @@ export default async function createConfigAsync() {
         indexName: 'kuizuo',
       },
       giscus: {
-        repo: 'sjktCode/blog',
-        repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+        repo: 'sjktCode/sjblog',
+        repoId: 'R_kgDOK9i4mQ',
         category: 'General',
-        categoryId: 'DIC_kwDOF7NJDM4CPK95',
+        categoryId: 'DIC_kwDOK9i4mc4Cb_W5',
         theme: 'light',
         darkTheme: 'dark',
       },
@@ -193,7 +193,7 @@ export default async function createConfigAsync() {
         {
           path: 'blog',
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-            `https://github.com/sjktCode/blog/edit/main/${blogDirPath}/${blogPath}`,
+            `https://github.com/sjktCode/sjblog/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogDescription: '独立开发者：编码致富之旅',
           blogSidebarCount: 10,

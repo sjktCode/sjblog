@@ -10,8 +10,8 @@
 <br>
 <a href="https://sjktCode.cn">🖥 Online Preview</a>
 <br><br> 
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/sjktCode/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/sjktCode/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/sjktCode/sjblog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/sjktCode/sjblog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 <a href="https://stackblitz.com/github/sjktCode/blog" rel="nofollow"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg"></a>
 </p>
 
@@ -19,7 +19,7 @@
 
 在这里我会分享Web全栈开发实战经验与心得，接单实战心得，独立开发盈利实战心得，并希望我的开发经历对你有所启发。
 
-如果你想要搭建一个类似的站点，可直接 [Fork](https://github.com/sjktCode/blog/fork) 本仓库使用，或者通过 [StackBlitz](https://stackblitz.com/github/sjktCode/blog) 在线运行本项目，或通过 [Vercel](https://vercel.com/new/clone?repository-url=https://github.com/sjktCode/blog/tree/main&project-name=blog&repo-name=blog) 一键部署。
+如果你想要搭建一个类似的站点，可直接 [Fork](https://github.com/sjktCode/sjblog/fork) 本仓库使用，或者通过 [StackBlitz](https://stackblitz.com/github/sjktCode/blog) 在线运行本项目，或通过 [Vercel](https://vercel.com/new/clone?repository-url=https://github.com/sjktCode/sjblog/tree/main&project-name=blog&repo-name=blog) 一键部署。
 
 ## ✨ Features
 
@@ -64,7 +64,7 @@
 ## 📥 Start
 
 ```sh
-git clone https://github.com/sjktCode/blog.git
+git clone https://github.com/sjktCode/sjblog.git
 cd blog
 pnpm install
 pnpm start
