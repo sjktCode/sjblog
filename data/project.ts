@@ -2,8 +2,8 @@ export const projects: Project[] = [
   {
     title: '三金的小站',
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
-    website: 'https://blog.vercel.app/',
+    preview: '/img/project/pro-sjblog.png',
+    website: 'https://sjblog.vercel.app/',
     source: 'https://github.com/sjktCode/sjblog',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
