@@ -111,11 +111,6 @@ export default async function createConfigAsync() {
         ],
         copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT 三金 Built with Docusaurus.</p>`,
       },
-      algolia: {
-        appId: 'GV6YN1ODMO',
-        apiKey: '50303937b0e4630bec4a20a14e3b7872',
-        indexName: 'kuizuo',
-      },
       giscus: {
         repo: 'sjktCode/sjblog',
         repoId: 'R_kgDOK9i4mQ',
@@ -186,6 +181,7 @@ export default async function createConfigAsync() {
     plugins: [
       'docusaurus-plugin-image-zoom',
       'docusaurus-plugin-sass',
+      require.resolve("@cmfcmf/docusaurus-search-local"),
       path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),
       path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
       [

@@ -13,7 +13,6 @@ cloudbaserc.json
 
 # Misc
 .DS_Store
-.env
 
 # Packages
 /packages
