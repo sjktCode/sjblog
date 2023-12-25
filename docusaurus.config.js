@@ -117,7 +117,7 @@ export default async function createConfigAsync() {
         indexName: 'kuizuo',
       },
       giscus: {
-        repo: 'sanjin/blog',
+        repo: 'sjktCode/blog',
         repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
         category: 'General',
         categoryId: 'DIC_kwDOF7NJDM4CPK95',
