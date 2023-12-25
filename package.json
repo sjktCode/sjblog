@@ -32,13 +32,14 @@
     "index": "docker run -it --env-file=.env -e \"CONFIG=$(cat docsearch.json | jq -r tostring)\" algolia/docsearch-scraper"
   },
   "dependencies": {
-    "@cmfcmf/docusaurus-search-local": "^1.1.0",
     "@docusaurus/core": "3.0.1",
     "@docusaurus/plugin-ideal-image": "3.0.1",
     "@docusaurus/plugin-pwa": "3.0.1",
     "@docusaurus/preset-classic": "3.0.1",
     "@docusaurus/theme-search-algolia": "3.0.1",
+    "@easyops-cn/docusaurus-search-local": "^0.40.1",
     "@giscus/react": "^2.3.0",
+    "@node-rs/jieba": "^1.7.2",
     "@popperjs/core": "^2.11.8",
     "dayjs": "^1.11.10",
     "docusaurus-plugin-image-zoom": "^1.0.0",

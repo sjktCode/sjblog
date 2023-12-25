@@ -181,9 +181,17 @@ export default async function createConfigAsync() {
     plugins: [
       'docusaurus-plugin-image-zoom',
       'docusaurus-plugin-sass',
-      require.resolve("@cmfcmf/docusaurus-search-local"),
       path.resolve(__dirname, './src/plugin/plugin-baidu-tongji'),
       path.resolve(__dirname, './src/plugin/plugin-baidu-push'),
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+          hashed: true,
+          language: ["en", "zh"],
+          highlightSearchTermsOnTargetPage: true,
+          explicitSearchResultPath: true,
+        },
+      ],
       [
         path.resolve(__dirname, './src/plugin/plugin-content-blog'), // 为了实现全局 blog 数据，必须改写 plugin-content-blog 插件
         {
