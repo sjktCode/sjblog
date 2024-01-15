@@ -77,7 +77,7 @@ export default function Hero() {
           variants={variants}
         >
           <Translate id="homepage.hero.text">
-            {`分享Web全栈开发实战经验与心得，接单实战心得，独立开发盈利实战心得。\n 微信：alpha540`}
+            {`分享Web全栈开发实战经验与心得，接单实战心得，独立开发盈利实战心得。`}
           </Translate>
         </motion.p>
         <motion.div
@@ -86,6 +86,7 @@ export default function Hero() {
           animate="visible"
           variants={variants}
         >
+          {`微信：alpha540`}
           <SocialLinks />
         </motion.div>
 
